@@ -4,25 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#009688"
     tools:context=".MainActivity">
-
-    <ProgressBar
-        android:id="@+id/progressBar"
-        style="?android:attr/progressBarStyle"
-        android:layout_width="147dp"
-        android:layout_height="95dp"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="44dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <ProgressBar
         android:id="@+id/progressBar3"
         style="?android:attr/progressBarStyle"
         android:layout_width="147dp"
         android:layout_height="95dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="150dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="112dp"
+        android:background="#CD5C76"
+        android:progressTint="#F403E8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,8 +24,9 @@
         style="?android:attr/progressBarStyle"
         android:layout_width="147dp"
         android:layout_height="95dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="52dp"
+        android:background="#CD5C76"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -41,9 +35,72 @@
         style="?android:attr/progressBarStyle"
         android:layout_width="147dp"
         android:layout_height="95dp"
-        android:layout_marginStart="150dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="48dp"
+        android:background="#CD5C76"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="147dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="36dp"
+        android:background="#CD5C76"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="1dp"
+        android:layout_height="409dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="365dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="729dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <TextView
+        android:id="@+id/Negro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Negro"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/Cian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cian"
+        android:textColor="#0BB6CD"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:id="@+id/Magenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Magenta"
+        android:textColor="#E30D8D"
+        tools:layout_editor_absoluteX="528dp"
+        tools:layout_editor_absoluteY="13dp" />
+
+    <TextView
+        android:id="@+id/Amarillo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amarillo"
+        android:textColor="#DDC20D"
+        tools:layout_editor_absoluteX="527dp"
+        tools:layout_editor_absoluteY="245dp" />
 
 </android.support.constraint.ConstraintLayout>
